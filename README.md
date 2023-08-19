@@ -22,7 +22,7 @@ The Bubble Game is an engaging and addictive web-based gaming experience that co
 
 Clone the game repository from GitHub:
 ```bash
-  git clone https://github.com/ayushanand10/bubbleBurstBash.git
+  git clone https://github.com/ayushanand10/BubbleBurstBash.git
 ```
 Navigate to the project directory:
 ```bach
