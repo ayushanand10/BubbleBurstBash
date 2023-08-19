@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gilroy';
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.gameHolder{
+    width: 100%;
+    background-color: rgb(130, 201, 157);
+    height: 100%;
+    padding: 4% 12%;
+}
+
+.innerBlock{
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.blockTop{
+    height: 12%;
+    padding: 10px 25%;
+    background-color: rgb(37, 155, 90);
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.elem{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.box{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(21, 122, 17);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#blockBottom{
+    width: 100%;
+    height: 88%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.bubble{
+    background-color: rgb(17, 113, 60);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bubble:hover{
+    background-color: rgb(11, 71, 38);
+    cursor: pointer;
+}
+
+button{
+    padding: 10px;
+    background-color: rgb(11, 71, 38);
+    color: rgb(197, 253, 233);
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
